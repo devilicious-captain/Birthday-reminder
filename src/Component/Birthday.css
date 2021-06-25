@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: lightsalmon;
+}
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+main {
+  min-height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 400px;
+  margin: 5rem 0;
+  padding: 1.5rem 2rem;
+  box-shadow: var(--dark-shadow);
+  background-color: white;
+}
+.birthday {
+  display: flex;
+  column-gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+  /* border: 2px solid black; */
+  background-color: white;
+}
+.birthday img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: var(--light-shadow);
+}
+.container button {
+  color: var(--clr-white);
+  display: block;
+  width: 100%;
+  border-color: lightblue;
+  background-color: salmon;
+  margin: 2rem auto 0 auto;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  letter-spacing: var(--spacing);
+  border-radius: var(--radius);
+  outline: 1px solid rgba(242, 138, 178, 0.8);
+  cursor: pointer;
+}
+
+.birthday button {
+  display: flex;
+  width: 90px;
+  margin-top: inherit;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.people {
+  display: grid;
+  /* border: 2px solid blue; */
+  width: 50%;
+}
+h1,
+h3,
+h2,
+p {
+  background-color: white;
+}
